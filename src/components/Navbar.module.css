@@ -1,0 +1,12 @@
+.header {
+  position: sticky;
+  top: 0;
+  background: #13141b;
+  border-bottom: 0.2px solid #6c93d3;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+  height: 80px;
+  width: 100%;
+  z-index: 1000;
+}

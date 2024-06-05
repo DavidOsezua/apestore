@@ -1,0 +1,26 @@
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  background: linear-gradient(180deg, #13131a 0%, #0f1323 100%);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 0.3px solid #6c93d3;
+  /* width: 200px; */
+  grid-row: 1/-1;
+
+  color: aliceblue;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.navMenu {
+
+}
+
+.bottom{
+
+
+}
