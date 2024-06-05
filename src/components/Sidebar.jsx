@@ -7,20 +7,28 @@ const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
       <div className={styles.logoContainer}>
-        <img src={logoImage}  className={styles.logoImage}/>
+        <img src={logoImage} className={styles.logoImage} />
         <h2 className={styles.logoTitle}>ApeStore</h2>
       </div>
 
-      <ul>
-        <NavLink>
-          <li>New Pairs</li>
+      <li className={styles.navItems}>
+        <NavLink to="/" className={`${styles.link}`}>
+          Home
         </NavLink>
-        <NavLink>
-          <li>My Apes</li>
-        </NavLink>
-        <NavLink>
-          <li>Token Deployer</li>
-        </NavLink>
+      </li>
+      <ul className={styles.navMenu}>
+        <li className={styles.link}>
+          <NavLink>New Pairs</NavLink>
+        </li>
+
+        <li className={styles.link}>
+          {" "}
+          <NavLink>My Apes</NavLink>
+        </li>
+
+        <li className={styles.link}>
+          <NavLink>Token Deployer </NavLink>
+        </li>
       </ul>
 
       <div className={styles.bottom}>
