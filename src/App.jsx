@@ -13,8 +13,8 @@ const App = () => {
         <Layout>
           <Routes>
             <Route path="/" element={<NewPairs />} />
-            <Route path="/competitions" element={<TokenDeveloper />} />
-            <Route path="/instantwins" element={<Myapes />} />
+            <Route path="/tokendeveloper" element={<TokenDeveloper />} />
+            <Route path="/myapes" element={<Myapes />} />
           </Routes>
         </Layout>
       </BrowserRouter>
