@@ -7,20 +7,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 3rem;
   border-right: 0.3px solid #6c93d3;
-  /* width: 200px; */
   grid-row: 1/-1;
-
   color: aliceblue;
   box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
 }
 
-
-.navMenu {
-
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-.bottom{
+.logoTitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  color: rgba(255, 255, 255, 0.85);
+}
 
+.logoImage {
+  width: 70px;
+}
+.navMenu {
+}
 
+.link {
+  background: linear-gradient(
+    86.16deg,
+    rgba(104, 149, 255, 0) 3.14%,
+    rgba(199, 174, 252, 0.4) 99.61%,
+    rgba(144, 91, 255, 0.4) 114.63%
+  );
+}
+
+.bottom {
+  margin-top: auto;
+  padding-bottom: 4rem;
 }

@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./Sidebar.module.css";
-import { image } from "../assets";
+import { image, logoImage } from "../assets";
 import { NavLink } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <aside className={styles.sidebar}>
-      <div>
-        <h2>ApeStore</h2>
+      <div className={styles.logoContainer}>
+        <img src={logoImage}  className={styles.logoImage}/>
+        <h2 className={styles.logoTitle}>ApeStore</h2>
       </div>
 
       <ul>
@@ -15,10 +16,10 @@ const Sidebar = () => {
           <li>New Pairs</li>
         </NavLink>
         <NavLink>
-          <li>New Pairs</li>
+          <li>My Apes</li>
         </NavLink>
         <NavLink>
-          <li>New Pairs</li>
+          <li>Token Deployer</li>
         </NavLink>
       </ul>
 
