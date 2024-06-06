@@ -5,11 +5,14 @@ const NewPairs = () => {
   return (
     <section className='p-7'>
  <div>
-<Card/>
+  <div className='flex justify-items-center'>
+  <Card/>
+  </div>
 
-<h3>Real time Pair</h3>
 
-<div>
+<h3 className='py-[2rem]'>Real time Pair</h3>
+
+<div className='grid grid-cols-3 gap-[15px]'>
   <Card/>
   <Card/>
   <Card/>
