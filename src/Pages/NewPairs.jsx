@@ -12,7 +12,7 @@ const NewPairs = () => {
   </div>
 
 
-<h3 className='py-[2rem] '>Real time Pair</h3>
+<h3 className='py-[2rem] font-bold'>Real time Pair</h3>
 
 <div className='grid grid-cols-3 gap-[15px]'>
   <Card/>
