@@ -1,8 +1,11 @@
 import React from 'react'
+import { tempoaryCard } from '../assets'
 
 const Card = () => {
   return (
-    <div>Card</div>
+    <div>
+      <img src={tempoaryCard} />
+    </div>
   )
 }
 

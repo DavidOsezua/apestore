@@ -1,11 +1,16 @@
 import React from "react";
 import styles from "./Navbar.module.css";
 
+
 const Navbar = () => {
   return (
     <header className={styles.header}>
-      <nav className={`bg-[#3c0054] ${styles.navContainer}`}>
-        <div></div>
+      <nav className={`${styles.navContainer}`}>
+        <div>
+      <p>kdldkl</p>
+        </div>
+
+        <button className={styles.btn}>Connect</button>
       </nav>
     </header>
   );

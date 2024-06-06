@@ -13,8 +13,9 @@ const Sidebar = () => {
       </div>
 
       <ul className={styles.navMenu}>
-        <img src={NewPairs} />
+       
         <li className={styles.navItems}>
+        <img src={NewPairs} />
           <NavLink to={"/"} className={`${styles.link}`}>
             New Pairs
           </NavLink>
